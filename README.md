@@ -8,4 +8,6 @@ Contact [support@aha.io](mailto:support@aha.io) for help with this API.
 
 ---
 
-Recently updated to use newer version of Faraday (>= 0.12.0), Ruby (2.6.4) & supporting gems.
+## Changelog:
+
+- (Feb 2020): Recently updated to use newer version of Faraday (>= 0.12.0), Ruby (2.6.4) & supporting gems.
