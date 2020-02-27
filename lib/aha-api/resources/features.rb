@@ -33,10 +33,10 @@ module AhaApi
 
       # client.create_feature_in_product('name', 'description', 'PROD', options = {})
       def create_feature_in_product(name, description, product, options = {})
-        post("api/#{api_version}/releases/#{product}/features", options.merge({ :name => name, :description => description }))
+        post("api/#{api_version}/products/#{product}/features", options.merge({ :name => name, :description => description }))
       end
 
-      # client.features_in_product('DEMO-R-3')
+      # client.create_feature_in_product('PROD', options = {})
       # https://www.aha.io/api/resources/features#anchor-resource-features-example-get_all_features_for_a_product
       def features_in_product(product, options = {})
         get("api/#{api_version}/products/#{release}/features", options)
